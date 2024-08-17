@@ -2,9 +2,10 @@
   "name": "learnbackend2.0",
   "version": "1.0.0",
   "description": "Backend project for self learning",
+  "type": "module",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [
     "express",
@@ -13,5 +14,8 @@
     "js"
   ],
   "author": "Piyush Verma",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
 }
